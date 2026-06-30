@@ -1,0 +1,9 @@
+[submodule "TraineeManagement.Api"]
+	path = TraineeManagement.Api
+	url = https://github.com/yashSharmaZeus/TraineeManagement.Api
+[submodule "SubmissionProcessor.Worker"]
+	path = SubmissionProcessor.Worker
+	url = https://github.com/yashSharmaZeus/SubmissionProcessor.Worker
+[submodule "TrainingDirectory.Api"]
+	path = TrainingDirectory.Api
+	url = https://github.com/yashSharmaZeus/TrainingDirectory.Api
