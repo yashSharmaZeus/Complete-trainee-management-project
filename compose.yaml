@@ -60,7 +60,7 @@ services:
       dockerfile: TraineeManagement.Api/Dockerfile
     restart: always
     ports:
-      - "8082:8080"
+      - "8083:8080"
     environment:
       - RabbitMQ__HostName=rabbitmq_server
       - RabbitMQ__UserName=${RABBITMQ_USERNAME}

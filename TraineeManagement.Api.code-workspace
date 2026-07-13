@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "TraineeManagement.Api"
+		},
+		{
+			"path": "TrainingDirectory.Api"
+		},
+		{
+			"path": "SubmissionProcessor.Worker"
+		}
+	],
+	"settings": {}
+}
