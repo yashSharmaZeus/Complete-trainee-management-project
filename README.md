@@ -1,7 +1,8 @@
 # Trainee Management API
 ## system architecture  
 
-![system architecture](./architecture.png)
+![system architecture](<img width="775" height="1065" alt="architecture" src="https://github.com/user-attachments/assets/c2b5e065-e513-4ef7-b9c5-f73320b7b8eb" />
+)
 ## Technology Used
 - C# / ASP.NET Core Web API
 - MySQL Database
