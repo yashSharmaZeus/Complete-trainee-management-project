@@ -73,7 +73,7 @@ services:
       redis:
         condition: service_healthy
     volumes:
-      - ./Storage:/app/Storage
+      - ./UploadStorage:/app/UploadStorage
  
   TrainingDirectory.Api:
     image: trainingdirectory.api:latest
@@ -86,7 +86,7 @@ services:
     depends_on:
       - TraineeManagement.Api
     volumes:
-      - ./Storage:/app/Storage
+      - ./UploadStorage:/app/UploadStorage
  
   SubmissionProcessor.Worker:
     image: submissionprocessor.worker:latest
@@ -106,7 +106,7 @@ services:
       mysql:
         condition: service_healthy
     volumes:
-      - ./Storage:/app/Storage
+      - ./UploadStorage:/app/UploadStorage
  
  
 configs:

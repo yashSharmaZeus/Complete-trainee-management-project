@@ -1,4 +1,5 @@
 ./Storage
 ./TraineeManagement.Api.7z
+UploadStorage/
 .env
 appsetting.json
